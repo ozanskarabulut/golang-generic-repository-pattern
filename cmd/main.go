@@ -12,6 +12,9 @@ const dev = "development"
 const production = "production"
 
 func main() {
+
+
+	
 	cfg, err := config.NewConfig(dev)
 	if err != nil {
 		fmt.Println("Error reading config file", err)
